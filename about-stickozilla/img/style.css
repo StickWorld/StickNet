@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+}
+
+body {
+	color: #fff;
+	background: maroon;
+	font-size: 120%;
+}
+
+/* Cleary Floaty */
+#clear {clear: left;} #clearr {clear: right;}
+#float-left {float:left;} #float-right {float:right;}
+
+/* Basic  */
+
+#all {
+	width: 600px;
+	height: 200px;
+	margin: 120px auto;
+	text-align: justify;
+	margin-bottom: 0;
+	font-style: italic;
+}
+
+p {
+	padding: 10px 20px;
+	text-align: right;
+	font-size: 120%;
+}
+
+p b {
+	font-size: 150%;
+}

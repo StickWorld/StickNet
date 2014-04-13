@@ -1,0 +1,1 @@
+<?php header("Location: http://pl.stickworld.wikia.com/"); ?>

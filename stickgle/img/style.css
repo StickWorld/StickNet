@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body {
+
+}
+
+/* Cleary Floaty */
+#clear {clear: left;} #clearr {clear: right;}
+#float-left {float:left;} #float-right {float:right;}
+
+/* Basic  */
+
+#all {
+	width: 600px;
+	height: 200px;
+	margin: 120px auto;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+input[type="text"] {
+	width: 550px;
+	padding: 6px 5px;
+	border: 1px #c6c6c6 solid;
+}
+
+input[type="button"] {
+	background: #fff;
+	color: #444;
+	border: 1px #c6c6c6 solid;
+	border-radius: 2px;
+	margin: 5px 10px;
+	padding: 6px 13px;
+	font-size: 75%;
+	font-weight: bold;
+}
+
+input[type="button"]:hover {
+	box-shadow: 1px 2px 5px #aaa;
+	border: 1px #aaa solid;
+	color: #111;
+}
+
+#topbox {
+	width: 960px;
+	text-align: right;
+	padding: 10px 10px;
+}
+
+#topbox ul li {
+	display: inline-block;
+	margin: 0 5px;
+}
+
+#topbox ul li a {
+	font-size: 90%;
+	color: #777;
+	text-decoration: none;
+}
+
+#topbox ul li a:hover {
+	color: #000;
+	text-decoration: underline;
+}
