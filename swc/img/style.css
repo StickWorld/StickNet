@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+
+}
+
+/* Cleary Floaty */
+#clear {clear: both;}
+#float-left {float:left;} #float-right {float:right;}
+
+/* Basic  */
+
+#all {
+	width: 980px;
+	margin: 0 auto;
+}
+
+#topbar {
+	width: 100%;
+	height: 160px;
+	background: #ede34a;
+}
+
+#topbar #logo img {
+	margin: 200px;
+	height: 150px;
+	margin: 4px 0;
+}
+
+#topbar #logo {
+	width: 250px;
+	height: 150px;
+	float: left;
+	text-align: center;
+}
+
+#topbar #menu {
+	float: right;
+	width: 600px;
+	text-align: center;
+}
+
+#topbar #menu ul {
+	margin: 0;
+	padding: 45px 0;
+	text-align: center;
+}
+
+#topbar #menu ul a li {
+	display: inline-block;
+	padding: 20px 20px;
+	color: #000;
+	border: 3px #ede34a solid;
+}
+
+#topbar #menu ul a li::first-letter {
+	color: #000;
+	font-weight: bold;
+}
+
+#topbar #menu ul a:hover li {
+	background: #f1e858;
+	border: 3px #d6cd45 solid;
+}
+
+#content {
+	width: 100%;
+}
+
+#content #menuc {
+	width: 100%;
+	background: #2bd9c7;
+	text-align:center;
+}
+
+#content #menuc ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+#content #menuc ul a li {
+	display: inline-block;
+	color: #fff;
+	padding: 5px 10px;
+}
+
+#content #menuc ul a li::first-letter {
+	color: #e24b64;
+	font-weight: bold;
+}
+
+#content #menuc ul a:hover li {
+	background: #e24b64;
+}
+
+#content #menuc ul a:hover li::first-letter {
+	color: #2bd9c7;
+	font-weight: bold;
+}
+
+
+
+
+
+
